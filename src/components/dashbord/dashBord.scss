@@ -1,0 +1,49 @@
+.dashbord{
+    display: flex;
+    
+}
+.nav-admin{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    background:rgba(167, 162, 162, 0.486);
+}
+.dashbord-contetn{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+.profile{
+    display: flex;
+    align-items: center;
+    padding: 0.5rem;
+    border-bottom: 1px solid gray;
+    img{
+        width: 45px;
+        height: 45px;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+    span{
+        color: black;
+        font-size: 0.8rem;
+        font-weight: 600;
+        padding-right: 0.5rem;
+    }
+}
+.dashbord-list{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding: 0;
+    li{
+        padding: 1rem 0.5rem;
+    }
+}
+.breadcum-dashbord{
+    padding: 1.5rem;
+    background:rgba(167, 162, 162, 0.486);
+    height: 3rem;
+    display: flex;
+    align-items: center;
+}

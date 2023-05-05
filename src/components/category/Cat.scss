@@ -1,0 +1,12 @@
+.card-box{
+    display: flex;
+    flex-direction: column;
+    padding: 0 0.5rem;
+
+}
+.card-image-box{
+    & img{}
+}
+.card-title{}
+.card-desc{}
+.card-price{}

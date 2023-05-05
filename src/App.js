@@ -1,23 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
 
+import './App.scss';
+import CategoryCompany from './components/category/CategoryCompany';
+import DashBoord from './components/dashbord/DashBoord';
+import DashbordInfoUser from './components/dashbord/DashBordContent/DashbordInfoUser';
+import DashbordStatus from './components/dashbord/DashBordContent/DashbordStatus';
+import InfoUser from './components/dashbord/MenuItems/InfoUser';
+import Profile from './components/dashbord/MenuItems/Profile';
+import HeaderNav from './components/header/HeaderNav';
+import Home from './components/homePage/Home';
+import { Route, Routes } from "react-router-dom"
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="">
+      <Routes>
+        <Route path='/' element={ <Home />}></Route>
+        <Route exact path='/dashbord' element={<DashBoord />}>
+          <Route path='profile' element={<Profile />} />
+          <Route path='user' element={<DashbordInfoUser />} />
+          <Route path='status' element={<DashbordStatus />} />
+        </Route>
+       
+  
+ </Routes>
     </div>
   );
 }
