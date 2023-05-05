@@ -3,6 +3,9 @@ import  Image2 from './asset/image/blue-sport-sedan-parked-yard.jpg'
 import  Image3 from './asset/image/dashboard-luxury-car-lights.jpg'
 import  Image4  from './asset/image/white-modern-sport-car-parking-road.jpg'
 import   Image5  from './asset/image/silver-metallic-color-sport-sedan-road.jpg'
+import   Profile  from './asset/image/images.jpg'
+
+
 
 export const data={
     slider:[
@@ -274,5 +277,20 @@ export const dataCompany={
             ],
             companyImage:Image4
         }
+    ]
+}
+
+export const users ={
+  user:  [
+        {
+            id:'user-1',
+            name:'javad',
+            image:Profile,
+            shopp:'5',
+            pass:'12345',
+
+        },
+        
+
     ]
 }

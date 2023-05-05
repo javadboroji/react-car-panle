@@ -1,8 +1,11 @@
 import React from 'react'
 
 function DashbordStatus() {
+ 
   return (
-    <div>DashbordStatus</div>
+   <>
+    status
+   </>
   )
 }
 

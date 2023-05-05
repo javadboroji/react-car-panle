@@ -7,7 +7,7 @@ function DashBordContent() {
   const location = useLocation();
   return (
     <>
-    <div className='breadcum-dashbord'>
+    <div className='breadcum-dashbord' >
       <Breadcrumb location={location.pathname}/>
     </div>
       <Outlet />
