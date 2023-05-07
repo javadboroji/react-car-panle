@@ -288,7 +288,12 @@ export const users ={
             image:Profile,
             shopp:'5',
             pass:'12345',
-
+            centers:[
+                "ایران خودرو",
+                "سایپا",
+                "کرمان موتور",
+                "کویر"
+            ]
         },
         
 

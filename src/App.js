@@ -1,4 +1,5 @@
 import './App.scss';
+import Login from './components/Authon/Login';
 import DashBoord from './components/dashbord/DashBoord';
 import DashbordInfoUser from './components/dashbord/DashBordContent/DashbordInfoUser';
 import DashbordStatus from './components/dashbord/DashBordContent/DashbordStatus';
@@ -10,6 +11,7 @@ function App() {
     <div className="">
       <Routes>
         <Route path='/' element={ <Home />}></Route>
+        <Route path='/login' element={<Login />} ></Route>
         <Route exact path='/dashbord' element={<DashBoord />}>
        
           <Route path='user' element={<DashbordInfoUser />} />

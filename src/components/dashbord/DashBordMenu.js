@@ -1,8 +1,10 @@
 import React from 'react'
 import { NavLink ,Outlet } from "react-router-dom";
+import Profile from './MenuItems/Profile';
 function DashBordMenu() {
   return (
     <>
+    <Profile />
     <ul className='dashbord-list'>
       <li>
       </li>
